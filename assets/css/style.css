@@ -1,0 +1,80 @@
+body{
+
+font-family: Arial, sans-serif;
+
+background:#f1f3f6;
+
+}
+
+
+
+.login-container{
+
+
+width:400px;
+
+margin:80px auto;
+
+background:white;
+
+padding:30px;
+
+border-radius:15px;
+
+text-align:center;
+
+box-shadow:0px 0px 15px #ccc;
+
+
+}
+
+
+
+.login-container input,
+.login-container select{
+
+
+width:100%;
+
+padding:12px;
+
+margin-top:8px;
+
+border-radius:5px;
+
+border:1px solid #ccc;
+
+
+}
+
+
+
+.login-container button{
+
+
+width:100%;
+
+padding:12px;
+
+background:#0057b8;
+
+color:white;
+
+border:none;
+
+border-radius:5px;
+
+font-size:16px;
+
+
+}
+
+
+
+.login-container button:hover{
+
+
+background:#003d80;
+
+
+}

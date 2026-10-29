@@ -1,0 +1,4 @@
+<?php
+require_once __DIR__.'/../functions/portal.php';
+rmmc_require_roles('Admin');rmmc_shell_start('Import Students','Admin');
+?><div class="welcome"><h1>Import enrolled students</h1><p>Upload a CSV file with columns Student ID, Last Name, First Name, Middle Initial, Course, Year Level (in that order).</p></div><section class="panel" style="max-width:700px"><form method="post" action="upload_students.php" enctype="multipart/form-data"><input type="hidden" name="csrf" value="<?=rmmc_e(rmmc_csrf())?>"><div class="field"><label>CSV file (maximum 2 MB)</label><input type="file" name="student_file" accept=".csv,text/csv" required></div><button style="margin-top:20px">Preview import</button></form><p class="small">New accounts will receive a temporary surname-based password and must change it at first sign-in. Existing students are skipped; records are never overwritten.</p></section><?php rmmc_shell_end();

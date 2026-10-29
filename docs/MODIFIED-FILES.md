@@ -1,0 +1,101 @@
+# Modified files summary
+
+- 54 existing files modified
+- 35 new files added
+- 0 existing files removed
+
+## Updated existing files
+- `admin/absent_students.php`
+- `admin/activity_logs.php`
+- `admin/attendance.php`
+- `admin/attendance_dashboard.php`
+- `admin/confirm_import.php`
+- `admin/dashboard.php`
+- `admin/events.php`
+- `admin/import_students.php`
+- `admin/officers.php`
+- `admin/present_students.php`
+- `admin/preview_students.php`
+- `admin/process_students.php`
+- `admin/reports.php`
+- `admin/settings.php`
+- `admin/students.php`
+- `admin/upload_students.php`
+- `admin/users.php`
+- `api/student_population.php`
+- `auth/authenticate.php`
+- `auth/login.php`
+- `auth/logout.php`
+- `functions/activity.php`
+- `functions/notification.php`
+- `functions/security.php`
+- `index.php`
+- `officer/add_event.php`
+- `officer/attendance.php`
+- `officer/calculate_fine.php`
+- `officer/clearance.php`
+- `officer/dashboard.php`
+- `officer/delete_event.php`
+- `officer/edit_event.php`
+- `officer/events.php`
+- `officer/process_attendance.php`
+- `officer/save_event.php`
+- `officer/scanner.php`
+- `officer/settings.php`
+- `officer/student_view.php`
+- `officer/students.php`
+- `officer/update_clearance.php`
+- `officer/update_event.php`
+- `student/announcements.php`
+- `student/attendance.php`
+- `student/dashboard.php`
+- `student/download_qr.php`
+- `student/events.php`
+- `student/notifications.php`
+- `student/officers.php`
+- `student/qr_code.php`
+- `student/register.php`
+- `student/register_event.php`
+- `student/save_student.php`
+- `student/settings.php`
+- `student/update_profile.php`
+
+## New files
+- `README-UPGRADE.md`
+- `admin/clearance.php`
+- `admin/clearance_action.php`
+- `admin/event_action.php`
+- `admin/fine_action.php`
+- `admin/fines.php`
+- `admin/process_attendance.php`
+- `admin/scanner.php`
+- `admin/student_view.php`
+- `assets/css/portal.css`
+- `auth/change_password.php`
+- `functions/attendance_view.php`
+- `functions/audit.php`
+- `functions/bootstrap.php`
+- `functions/clearance_logic.php`
+- `functions/clearance_view.php`
+- `functions/dashboard_view.php`
+- `functions/event_action.php`
+- `functions/events_view.php`
+- `functions/fine_action.php`
+- `functions/fines_view.php`
+- `functions/portal.php`
+- `functions/process_attendance.php`
+- `functions/settings_view.php`
+- `functions/students_view.php`
+- `migrations/001_upgrade.sql`
+- `officer/clearance_action.php`
+- `officer/event_action.php`
+- `officer/fine_action.php`
+- `officer/fines.php`
+- `scripts/migrate.php`
+- `storage/private/.htaccess`
+- `student/clearance.php`
+- `student/fines.php`
+- `student/qr_image.php`
+
+## Deleted files
+- None
